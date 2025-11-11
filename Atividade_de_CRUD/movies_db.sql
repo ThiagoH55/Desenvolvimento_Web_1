@@ -25,8 +25,8 @@ DROP TABLE IF EXISTS `movies`;
 CREATE TABLE `movies` (
   `id_film` int NOT NULL AUTO_INCREMENT,
   `name_film` varchar(55) NOT NULL,
+  `genre_film` varchar(18) NOT NULL,
   `launch_film` date NOT NULL,
-  `genre_filme` varchar(18) NOT NULL,
   PRIMARY KEY (`id_film`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
